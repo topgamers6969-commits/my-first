@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FF Login</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('https://images.hindustantimes.com/tech/img/2022/02/20/1600x900/pop04_(3)_1645319189842_1645319208354.jpg');
+      background-size:20 cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login-container {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #ff3b3b;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e63232;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img
+      src="https://images.seeklogo.com/logo-png/37/1/garena-logo-png_seeklogo-371944.png"
+      alt="Garena Logo"
+      class="logo"
+    />
+    <form>
+      <input type="text" placeholder="Email address" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
